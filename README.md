@@ -6,7 +6,6 @@
 - 📫 How to reach me: I would be glad to hear about an open research position, Ph.D. openings, technical & non-technical conversations from former fellow mates, researchers, managers, or just interesting creative folks, so feel free to contact me if you’d like to connect.
 
 - LinkedIn : https://www.linkedin.com/in/partha121/ 
-- Webpage : https://www.parthapratim.com/ 
 - Twitter : https://twitter.com/partha_wish 
 - Github : <-- You are here --> 
 - Email: technical.partha@gmail.com 

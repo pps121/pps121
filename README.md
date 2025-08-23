@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Partha, a Lead data scientist having end-to-end 8+ years of work experience in NLP/Machine Learning/Deep Learning and Data Science. I have a proven track record of prototyping, building, and deploying machine learning solutions across a variety of industries including Pharma, Finance, and Manufacturing.
+- 👋 Hi, I’m Partha, a Lead data scientist working in NLP/Machine Learning/Deep Learning and Data Science. I have a proven track record of prototyping, building, and deploying machine learning solutions across a variety of industries including Pharma, Finance, and Manufacturing.
 
 - 👀 I’m interested in Natural Language Processing (NLP), Text Mining and analytics, Machine and deep Learning.
 - 🌱 I’m currently learning the power of Large Language Models(LLMs), trustworthy and explainable LLMs. 

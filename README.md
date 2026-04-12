@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Partha%20Pratim%20Saha&fontSize=40&fontColor=white&animation=fadeIn&fontAlignY=38&desc=Mechanistic%20Interpretability%20%7C%20Geometric%20Deep%20Learning%20%7C%20AI%20Alignment&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Partha%20Pratim%20Saha&fontSize=40&fontColor=white&animation=fadeIn&fontAlignY=38&desc=Mechanistic%20Interpretability%20%7C%20AI-Safety%20Interpretability%20Large%20Language%20Models%20Geometric%20Deep%20Learning%20%7C%20AI%20Alignment&descAlignY=55&descSize=16" width="100%"/>
 
 [![Email](https://img.shields.io/badge/Email-technical.partha%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:technical.partha@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-pps121-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pps121)

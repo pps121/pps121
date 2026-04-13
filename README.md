@@ -27,10 +27,10 @@ I develop **differential-geometric frameworks** for understanding how large lang
 <tr>
 <td width="60%">
 
-**TBVF** treats each transformer layer's hidden state as a point on a high-dimensional Riemannian manifold with Fisher-Rao metric. The *torsion tensor* — antisymmetric component of cross-layer covariance — measures rotational mismatch between consecutive belief updates.
-
+**Torsional Belief Vector Field** treats each transformer layer's hidden state as a point on a high-dimensional Riemannian manifold with Fisher-Rao metric. The *torsion tensor* — antisymmetric component of cross-layer covariance — measures rotational mismatch between consecutive belief updates.
+<!--
 **Key discovery**: DPO alignment suppresses torsion norm by **44.4%** in Mistral-7B mid-early layers (Cohen's *d* = 0.611), with peak statistical significance at layer 27 (*d* = 0.741, *p* = 7.7×10⁻¹³ after Bonferroni correction). This is not noise — it is geometry.
-
+-->
 </td>
 <td width="40%" align="center">
 
@@ -48,12 +48,12 @@ p-value:           7.7 × 10⁻¹³
 </td>
 </tr>
 </table>
-
+<!--
 **📄 Paper:** [Where Alignment Bends: Geometric Torsion as a Mechanistic Probe of Preference Optimization](https://github.com/pps121/torsional-belief-vector-field)  
 *Submitted to ICML 2026 Mechanistic Interpretability Workshop*
 
 **🔗 Code + Data:** [github.com/pps121/torsional-belief-vector-field](https://github.com/pps121/torsional-belief-vector-field)
-
+-->
 ---
 
 ## 📊 Research at a Glance

@@ -15,13 +15,13 @@
 
 > **Can the geometry of thought reveal how alignment works?**
 
-I develop **differential-geometric frameworks** for understanding how large language models encode, transform, and ultimately suppress beliefs — with a focus on mechanistic interpretability and AI alignment. My flagship framework, the **Torsional Belief Vector Field (TBVF)**, models transformer hidden states as discrete curves on a Riemannian belief manifold equipped with a Cartan torsion connection. This reveals, for the first time, *where* and *how* DPO/RLHF alignment geometrically reshapes model internals — creating what I call **"brake layers"**: localized, geometrically distinct suppression mechanisms.
+I develop **differential-geometric frameworks** for understanding how large language models encode, transform, and ultimately suppress beliefs — with a focus on mechanistic interpretability and AI alignment. The **Torsional Belief Vector Field (TBVF)**, models transformer hidden states as discrete curves on a Riemannian belief manifold equipped with a Cartan torsion connection. This reveals, for the first time, *where* and *how* DPO/RLHF alignment geometrically reshapes model internals — creating what I call **"brake layers"**: localized, geometrically distinct suppression mechanisms.
 
 **I am actively seeking fully-funded PhD positions** at world-class research universities in mechanistic interpretability, geometric deep learning, and AI alignment.
 
 ---
 
-## 🔬 Flagship Research: Torsional Belief Vector Fields
+## 🔬 Torsional Belief Vector Fields
 
 <table>
 <tr>

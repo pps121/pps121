@@ -5,7 +5,7 @@
 [![Email](https://img.shields.io/badge/Email-technical.partha%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:technical.partha@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-pps121-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pps121)
 [![Website](https://img.shields.io/badge/Website-pps121.github.io-667eea?style=for-the-badge&logo=github-pages&logoColor=white)](https://pps121.github.io)
-[![Research](https://img.shields.io/badge/Research-TBVF%20Paper-764ba2?style=for-the-badge&logo=arxiv&logoColor=white)](https://github.com/pps121/torsional-belief-vector-field)
+<!-- [![Research](https://img.shields.io/badge/Research-TBVF%20Paper-764ba2?style=for-the-badge&logo=arxiv&logoColor=white)](https://github.com/pps121/torsional-belief-vector-field) -->
 
 </div>
 
@@ -72,7 +72,7 @@ p-value:           7.7 × 10⁻¹³
 ## 🚀 Current Status
 
 ```
-🟢 ACTIVE  — Submitting to ICML 2026 MechInterp Workshop
+<!-- 🟢 ACTIVE  — Submitting to ICML 2026 MechInterp Workshop -->
 🟡 SEEKING — Fully-funded PhD (2026 intake), world-class research universities
 🔵 BUILDING — Extending TBVF to vision transformers and multimodal models
 ```
@@ -104,7 +104,7 @@ p-value:           7.7 × 10⁻¹³
 
 ---
 
-## 📬 Let's Collaborate
+## 📬 Research Collaboration
 
 I am open to:
 - Research collaborations on mechanistic interpretability or geometric ML

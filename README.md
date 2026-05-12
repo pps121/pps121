@@ -65,7 +65,7 @@ My research treats transformer hidden-state sequences as discrete curves on a **
 ## 🔬 Active Research Projects
 
 ### 1 · GRAFT — Geometric Representations of Alignment's Fingerprint in Transformer Belief Trajectories
-> **ICML 2026 · Mechanistic Interpretability Workshop** | [`graft-belief-geometry`](https://github.com/pps121/graft-belief-geometry)
+> **Mechanistic Interpretability** | [`graft-belief-geometry`](https://github.com/pps121/graft-belief-geometry)
 
 GRAFT is a **post-hoc, gradient-free mechanistic audit toolkit** that characterises preference alignment via three torsion probes (𝒯, T1, T2) and an ERA depth profiler — requiring only forward passes through publicly available checkpoints.
 
@@ -148,7 +148,7 @@ Unifies fine-tuning, alignment, distillation, and merging as measurable deformat
 
 | Year | Venue | Title | Role |
 |------|-------|-------|------|
-| 2026 | **ICML 2026 Workshop** | GRAFT: Geometric Representations of Alignment's Fingerprint in Transformer Belief Trajectories | First author |
+| 2026 | **MechInterp** | GRAFT: Geometric Representations of Alignment's Fingerprint in Transformer Belief Trajectories | First author |
 | 2026 | **NeurIPS 2026** *(prep)* | MENTIS: What Belief Changes Under Alignment? Multi-Scale Latent Torsion in LLMs | First author |
 | 2025 | **Preprint** | SPINAL: Scaling-law and Preference Integration in Neural Alignment Layers | Co-author |
 | 2025 | **NeurIPS 2025 Workshop** | Prompting Away Stereotypes? Evaluating Bias in Text-to-Image Models for Occupations | Co-author · [arXiv](https://arxiv.org/pdf/2509.00849) |

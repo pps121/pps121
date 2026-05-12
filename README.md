@@ -25,7 +25,7 @@ I build **differential-geometric and information-geometric frameworks** to answe
 My research treats transformer hidden-state sequences as discrete curves on a **Riemannian belief manifold** equipped with the Fisher-Rao metric. The **torsion tensor** — antisymmetric component of cross-layer covariance — captures rotational mismatch invisible to attention patterns or activation norms. I call the resulting suppression pockets **"brake layers"**: geometrically localised, alignment-specific, and falsifiable with existing causal patching tools.
 
 **Four active research threads:**
-- 🔬 **GRAFT** — Geometric alignment audit via torsion probes (ICML 2026 MechInterp Workshop)
+- 🔬 **GRAFT** — Geometric alignment Audit
 - 🧬 **MENTIS** — Multi-scale latent torsion across NeurIPS-scale benchmarks
 - 🌱 **AgriTalk** — Calibrated NLU for agricultural robotics (PhD programme)
 - 🌐 **nDNA / Semantic Helix** — Cultural epistemic inheritance in merged LLMs
@@ -36,7 +36,6 @@ My research treats transformer hidden-state sequences as discrete curves on a **
 ```
 ┌──────────────────────────────────┐
 │  GRAFT · Key Results             │
-│  ICML 2026 MechInterp Workshop   │
 ├──────────────────────────────────┤
 │  T2 vs CKA discriminability:     │
 │  ██████████████████  8×          │
@@ -45,9 +44,9 @@ My research treats transformer hidden-state sequences as discrete curves on a **
 │  ██████████████████████  20–46×  │
 │                                  │
 │  Safe-prompt paradox p-value:    │
-│  p < 10⁻³³  (OLMo · n=20,439)   │
+│  p < 10⁻³³  (OLMo · n=20,439)    │
 │                                  │
-│  AUC T2  : 0.89 [0.85–0.93]     │
+│  AUC T2  : 0.89 [0.85–0.93]      │
 │  AUC CKA : 0.61                  │
 │                                  │
 │  DPO subspace: 2–3 dims          │

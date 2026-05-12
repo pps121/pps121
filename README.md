@@ -253,7 +253,7 @@ dtaidistance · scikit-learn
 
 | Repository | Description | Status |
 |-----------|-------------|--------|
-| [`graft-belief-geometry`](https://github.com/pps121/graft-belief-geometry) | GRAFT: post-hoc geometric audit of alignment — ICML 2026 MechInterp Workshop | 🟢 Active |
+| [`graft-belief-geometry`](https://github.com/pps121/graft-belief-geometry) | GRAFT: post-hoc geometric audit of alignment — MechInterp | 🟢 Active |
 | [`AgriTalk`](https://github.com/pps121/AgriTalk) | Calibrated NLU for agricultural spray robots — conformal prediction + BVF attribution | 🟢 Active |
 | [`torsional-belief-vector-field`](https://github.com/pps121/torsional-belief-vector-field) | TBVF / MENTIS — Riemannian torsion framework for alignment auditing | 🟢 Active |
 | [`AutoResearchClaw`](https://github.com/pps121/AutoResearchClaw) | Autonomous AI research pipeline: idea → full conference-ready paper | 🟢 Contributed |

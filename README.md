@@ -98,6 +98,7 @@ GRAFT is a **post-hoc, gradient-free mechanistic audit toolkit** that characteri
 
 ### 2 · MENTIS — What Belief Changes Under Alignment?
 > **NeurIPS 2026 (in preparation)** | Measuring Multi-Scale Latent Torsion in Language Models
+> **Team:** Partha Pratim Saha · Samarth Raina · Mayur Parvatikar · Amit Dhanda · Vinija Jain · Aman Chadha · Amitava Das
 
 MENTIS delivers a **NeurIPS-scale empirical study** of belief geometry across the full LITMUS benchmark, introducing 8 new torsion metrics and rigorous thermodynamic analysis across DPO, RLHF, and SFT checkpoints.
 
@@ -149,7 +150,7 @@ Unifies fine-tuning, alignment, distillation, and merging as measurable deformat
 | Year | Venue | Title | Role |
 |------|-------|-------|------|
 | 2026 | **MechInterp** | GRAFT: Geometric Representations of Alignment's Fingerprint in Transformer Belief Trajectories | First author |
-| 2026 | **NeurIPS 2026** *(prep)* | MENTIS: What Belief Changes Under Alignment? Multi-Scale Latent Torsion in LLMs | First author |
+| 2026 | **NeurIPS 2026** *(prep)* | MENTIS: What Belief Changes Under Alignment? Multi-Scale Latent Torsion in LLMs | First author · P.P. Saha, S. Raina, M. Parvatikar, A. Dhanda, V. Jain, A. Chadha, A. Das |
 | 2025 | **Preprint** | SPINAL: Scaling-law and Preference Integration in Neural Alignment Layers | Co-author |
 | 2025 | **NeurIPS 2025 Workshop** | Prompting Away Stereotypes? Evaluating Bias in Text-to-Image Models for Occupations | Co-author · [arXiv](https://arxiv.org/pdf/2509.00849) |
 | 2025 | **Journal** | Enhancing Human Empathy in Conversations Using Transformer-Based Models | Top contributor · [DOI](https://doi.org/10.5281/zenodo.15126395) |
@@ -246,6 +247,14 @@ dtaidistance · scikit-learn
 | 🌐 **Duke ML Summer School 2025** | Competitive selection |
 | 🌐 **Cohere Summer School 2025** | Competitive selection |
 | 🏙️ **University of Chicago DSI 2024** | AI-Science Research Program · Eric & Wendy Schmidt Postdoctoral Fellowship |
+| 🎓 **MLx Generative AI Fellowship** | Oxford ML Summer School 2024 & 2025 — competitive scholarship award |
+| 🌍 **Athens NLP Summer School 2024** | Competitive international selection — NLP & large language models |
+| 🧠 **diiP Summer School 2024** | Paris — Deep Learning & Interpretability in Practice · competitive selection |
+| 🤖 **Neuromatch Academy** | Deep Learning Summer School — competitive global selection |
+| 🗽 **NYU AI Summer School 2022** | New York University — competitive selection |
+| 🤖 **AI4 IMPACT Scholar** | AI Singapore 2021 — selected AI practitioner programme |
+| 💡 **Google Developer's Program** | Google 2019 — Google Developer Expert community selection |
+| 🎓 **Udacity Bertelsmann Tech Scholarship** | Google-sponsored — competitive global selection |
 
 ---
 
@@ -268,6 +277,11 @@ dtaidistance · scikit-learn
 🎓  Lecturer in CS          Nalhati Govt. Polytechnic College      2021 – present
                              BITS Pilani M.Tech · GPA 9.08/10 · Top 5%
                              50+ students supervised · 4 active research projects
+
+📚  Teaching Assistant      BITS Pilani (M.Tech Programme)         2021 – 2023
+                             NLP Applications [Winter 2023] · Deep Learning [Fall 2021]
+                             Deep Reinforcement Learning [Spring 2021]
+                             Honorarium: USD $2,513.11 across 3 courses
 
 🏭  Lead Data Scientist     Wipro Limited (Bangalore)              2021
                              Conversational AI · IBM Watson · 0.3M users

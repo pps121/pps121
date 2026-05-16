@@ -1,7 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Partha%20Pratim%20Saha&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Safety%20%C2%B7%20Mechanistic%20Interpretability%20%C2%B7%20Geometric%20Deep%20Learning%20%C2%B7%20AI%20Alignment&descAlignY=58&descSize=15&descColor=c8b6ff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Partha%20Pratim%20Saha&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Geometric%20Interpretability%20%C2%B7%20AI%20Safety%20%C2%B7%20Mechanistic%20Interpretability%20%C2%B7%20Alignment%20Geometry&descAlignY=58&descSize=15&descColor=c8b6ff" width="100%"/>
 
+[![NeurIPS](https://img.shields.io/badge/NeurIPS%202025-Workshop%20Author-7c3aed?style=for-the-badge&logo=academia&logoColor=white)](https://arxiv.org/pdf/2509.00849)
+[![SpringerNature](https://img.shields.io/badge/SpringerNature-ICOMP'24-0a7cc1?style=for-the-badge&logo=springer&logoColor=white)](https://link.springer.com/chapter/10.1007/978-3-031-72171-7_3)
 [![Email](https://img.shields.io/badge/Email-technical.partha%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:technical.partha@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-partha121-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/partha121)
 [![Portfolio](https://img.shields.io/badge/Portfolio-pps121.github.io-7c3aed?style=for-the-badge&logo=github-pages&logoColor=white)](https://pps121.github.io)
@@ -12,22 +14,22 @@
 
 ---
 
-## 🧭 Research Vision
-
 <table>
 <tr>
 <td width="62%">
 
 > **"AI systems must be aligned not only behaviourally but *geometrically* — with transparent, auditable internal representations that can be verified, not just tested."**
 
-I build **differential-geometric and information-geometric frameworks** to answer a question that keeps me up at night: *What actually changes inside a model when we align it?*
+I build **differential-geometric and information-geometric frameworks** to answer one question: *What actually changes inside a model when we align it?*
 
-My research treats transformer hidden-state sequences as discrete curves on a **Riemannian belief manifold** equipped with the Fisher-Rao metric. The **torsion tensor** — antisymmetric component of cross-layer covariance — captures rotational mismatch invisible to attention patterns or activation norms. I call the resulting suppression pockets **"brake layers"**: geometrically localised, alignment-specific, and falsifiable with existing causal patching tools.
+I discovered that DPO/RLHF alignment creates geometrically localised **"brake layers"** — specific transformer depths where torsion is selectively suppressed. These are detectable via forward passes alone, reproducible across architectures, and directly patchable. Published at **NeurIPS 2025** and **SpringerNature**.
+
+**Background:** Self-driven independent researcher. Lecturer in CS at Nalhati Government Polytechnic (West Bengal). All research built before/after office hours — no lab, no GPU cluster, no supervisor. 12 years of industry experience across Infosys, IIT Kanpur, J&J R&D, Wipro.
 
 **Four active research threads:**
-- 🔬 **GRAFT** — Geometric alignment Audit
-- 🧬 **MENTIS** — Multi-scale latent torsion across NeurIPS-scale benchmarks
-- 🌱 **AgriTalk** — Calibrated NLU for agricultural robotics (PhD programme)
+- 🔬 **GRAFT** — Geometric alignment audit toolkit (post-hoc, gradient-free)
+- 🧬 **MENTIS** — Multi-scale latent torsion · NeurIPS 2026 submission
+- 🌱 **AgriTalk** — Calibrated NLU for agricultural robotics
 - 🌐 **nDNA / Semantic Helix** — Cultural epistemic inheritance in merged LLMs
 
 </td>
@@ -44,9 +46,9 @@ My research treats transformer hidden-state sequences as discrete curves on a **
 │  ██████████████████████  20–46×  │
 │                                  │
 │  Safe-prompt paradox p-value:    │
-│  p < 10⁻³³  (OLMo · n=20,439)    │
+│  p < 10⁻³³  (OLMo · n=20,439)   │
 │                                  │
-│  AUC T2  : 0.89 [0.85–0.93]      │
+│  AUC T2  : 0.89 [0.85–0.93]     │
 │  AUC CKA : 0.61                  │
 │                                  │
 │  DPO subspace: 2–3 dims          │
@@ -62,7 +64,17 @@ My research treats transformer hidden-state sequences as discrete curves on a **
 
 ---
 
-## 🔬 Active Research Projects
+## 📄 Publications
+
+| Year | Venue | Title | Links |
+|------|-------|-------|-------|
+| 2025 | **NeurIPS 2025 Workshop** | Prompting Away Stereotypes? Evaluating Bias in Text-to-Image Models for Occupations | [arXiv](https://arxiv.org/pdf/2509.00849) |
+| 2025 | **Journal** | Enhancing Human Empathy in Conversations Using Transformer-Based Models | [DOI](https://doi.org/10.5281/zenodo.15126395) |
+| 2024 | **SpringerNature ICOMP'24** | Collaborative Federated Learning Cloud Based System | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-72171-7_3) |
+| 2026 | **[Under Review — NeurIPS 2026]** | MENTIS: Multi-Scale Latent Torsion in Language Models | [Repo](https://github.com/pps121/torsional-belief-vector-field) |
+| 2026 | **[Preprint]** | GRAFT: Geometric Representations of Alignment's Fingerprint in Transformer Belief Trajectories | [Repo](https://github.com/pps121/graft-belief-geometry) |
+
+---
 
 ### 1 · GRAFT — Geometric Representations of Alignment's Fingerprint in Transformer Belief Trajectories
 > **Mechanistic Interpretability** | [`graft-belief-geometry`](https://github.com/pps121/graft-belief-geometry)
@@ -97,10 +109,8 @@ GRAFT is a **post-hoc, gradient-free mechanistic audit toolkit** that characteri
 ---
 
 ### 2 · MENTIS — What Belief Changes Under Alignment?
-> **NeurIPS 2026 (in preparation)** | Measuring Multi-Scale Latent Torsion in Language Models
+> **[Under Review — NeurIPS 2026]** | [`torsional-belief-vector-field`](https://github.com/pps121/torsional-belief-vector-field)
 > **Team:** Partha Pratim Saha · Samarth Raina · Mayur Parvatikar · Amit Dhanda · Vinija Jain · Aman Chadha · Amitava Das
-
-MENTIS delivers a **NeurIPS-scale empirical study** of belief geometry across the full LITMUS benchmark, introducing 8 new torsion metrics and rigorous thermodynamic analysis across DPO, RLHF, and SFT checkpoints.
 
 ```
 MENTIS · Headline Metrics
@@ -110,69 +120,42 @@ MENTIS · Headline Metrics
   Bonferroni-corrected p-value        7.7 × 10⁻¹³
 
   H1 normative amplification          1500×  (vs factual concepts)
-  Thermodynamic gap (normative/factual)  10×
   Entropy–torsion bridge (Mistral)    ρ = −0.387   p = 5.43 × 10⁻³⁰
-
-  DTW–Torsion lower bound
-  DC(w) ≥ 0.875 · |Σ‖Sᴵᵀ‖_F − Σ‖Sᴾᴬ‖_F|
-
-  17 geometric metrics · 3×2 SFT/DPO model pairs · 500 unsafe prompts
+  17 geometric metrics · 4 model pairs · 20,439 prompts
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 ---
 
 ### 3 · AgriTalk — Calibrated NLU for Agricultural Robotics
-> **PhD Research Programme** · GreenFieldData Competition | [`AgriTalk`](https://github.com/pps121/AgriTalk)
+> [`AgriTalk`](https://github.com/pps121/AgriTalk) · Conformal prediction + HITL safety guarantees
 
-AgriTalk proposes **calibrated natural-language control interfaces for agricultural spray robots**. Three pillars missing from all existing approaches: **formal safety guarantees**, **mechanistic explainability via BVF attribution**, **streaming grounding under sensor dropout**.
-
-| Contribution | Core Guarantee | Target Venue |
-|---|---|---|
-| **C1** Conformal NLU (RAPS) | P(y∈C(x)) ≥ 95% under seasonal shifts, HITL ≤ 25% | EMNLP/ACL 2027 |
-| **C2** BVF Attribution | Kendall τ(IG, BVF) > 0.5 on safety-critical intents | ACL 2029 |
-| **C3** Temporal Streaming Architecture | Grounding recall maintained at 10–50% sensor dropout | VLDB 2028 |
-| **C4** Conformal Trust Evaluation | BVF explanations achieve superior trust calibration vs CoT | FAccT 2029 |
-
-**5-layer safety stack:** Input Sanitiser → Staleness Verifier → Conformal Predictor (RAPS) → Attribution Sufficiency Gate → Non-bypassable HITL for `ABORT` / `EMERGENCY_STOP`
+**5-layer safety stack:** Input Sanitiser → Staleness Verifier → Conformal Predictor (RAPS) → Attribution Gate → Non-bypassable HITL for `ABORT` / `EMERGENCY_STOP`
 
 ---
 
 ### 4 · Semantic Helix / nDNA — Cross-Cultural AI
-> **Active** | Epistemic inheritance in merged LLMs via Fisher-Rao geometry
-
-Unifies fine-tuning, alignment, distillation, and merging as measurable deformations of depth-wise semantic flow. Cultural nDNA measured via spectral curvature deviation Δκ_ℓ and thermodynamic length divergence ΔL_ℓ across **8 cultural axes**: African · Latin American · South Asian · East Asian · Arabic · Indigenous · European · Pacific Islander.
+> Epistemic inheritance in merged LLMs via Fisher-Rao geometry · 8 cultural axes
 
 ---
 
-## 📄 Publications
+## 🏆 Recognition & Fellowships
 
-| Year | Venue | Title | Role |
-|------|-------|-------|------|
-| 2026 | **MechInterp** | GRAFT: Geometric Representations of Alignment's Fingerprint in Transformer Belief Trajectories | First author |
-| 2026 | **NeurIPS 2026** *(prep)* | MENTIS: What Belief Changes Under Alignment? Multi-Scale Latent Torsion in LLMs | First author · P.P. Saha, S. Raina, M. Parvatikar, A. Dhanda, V. Jain, A. Chadha, A. Das |
-| 2025 | **Preprint** | SPINAL: Scaling-law and Preference Integration in Neural Alignment Layers | Co-author |
-| 2025 | **NeurIPS 2025 Workshop** | Prompting Away Stereotypes? Evaluating Bias in Text-to-Image Models for Occupations | Co-author · [arXiv](https://arxiv.org/pdf/2509.00849) |
-| 2025 | **Journal** | Enhancing Human Empathy in Conversations Using Transformer-Based Models | Top contributor · [DOI](https://doi.org/10.5281/zenodo.15126395) |
-| 2024 | **SpringerNature ICOMP'24** | Collaborative Federated Learning Cloud Based System | First author · [Paper](https://link.springer.com/chapter/10.1007/978-3-031-72171-7_3) |
-
----
-
-## 📊 GitHub Activity
-
-<div align="center">
-
-| | |
-|:---:|:---:|
-| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pps121&show_icons=true&hide_border=true&bg_color=0d1117&title_color=c084fc&icon_color=c084fc&text_color=e2e8f0&rank_icon=github&include_all_commits=true&cache_seconds=1800) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pps121&layout=compact&hide_border=true&bg_color=0d1117&title_color=c084fc&text_color=e2e8f0&langs_count=7&cache_seconds=1800) |
-
-</div>
-
-<div align="center">
-
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=pps121&theme=tokyo-night&bg_color=0d1117&color=c084fc&line=7c3aed&point=a855f7&area=true&area_color=1e1b4b&hide_border=true)
-
-</div>
+| Award | Year |
+|---|---|
+| 🛡️ **BlueDot Impact Scholar** — AGI Strategy + Technical AI Safety | 2025–2026 |
+| 🔬 **LASR Labs** — Mechanistic interpretability research programme | 2025 |
+| 📋 **NeurIPS 2025 Reviewer** — MTI-LLM Workshop | 2025 |
+| 🖥️ **5× Google Colab Pro A100/H100** — Neuromatch AI Safety grant | 2025 |
+| ☁️ **AWS AI & ML Scholar** | 2025 |
+| 🎓 **Armenian LLM Summer School** — 90% scholarship | 2025 |
+| 🌐 **Duke ML Summer School** | 2025 |
+| 🌐 **Cohere Summer School** | 2025 |
+| 🏙️ **University of Chicago DSI** — Eric & Wendy Schmidt Postdoctoral Fellowship | 2024 |
+| 🎓 **MLx Generative AI Fellowship** — Oxford ML Summer School | 2024–2025 |
+| 🧠 **diiP Summer School Paris** — Deep Learning & Interpretability | 2024 |
+| 🤖 **Neuromatch Academy** — Deep Learning Summer School | 2023 |
+| 🗽 **NYU AI Summer School** | 2022 |
 
 ---
 
@@ -193,7 +176,6 @@ Spectral Methods (T2)
 DTW Analysis
 Information Geometry
 Thermodynamic Length
-Holonomy Defect
 ```
 
 </td>
@@ -209,7 +191,6 @@ Belief State Geometry
 Representation Engineering
 Conformal Prediction (RAPS)
 XAI / Explainable AI
-AgentAI / Multi-Agent Systems
 ```
 
 </td>
@@ -219,12 +200,10 @@ AgentAI / Multi-Agent Systems
 ```python
 PyTorch · Transformers (HF)
 OLMo · Llama · Mistral
-Qwen · DeepSeek · Zephyr
 LangChain · LlamaIndex
 NumPy · SciPy · Plotly
 Docker · Azure · AWS
-LaTeX · MetaFlow
-dtaidistance · scikit-learn
+LaTeX · scikit-learn
 ```
 
 </td>
@@ -233,40 +212,15 @@ dtaidistance · scikit-learn
 
 ---
 
-## 🏆 Recognition & Fellowships
-
-| Award | Details |
-|---|---|
-| 🛡️ **BlueDot Impact Scholar** | AGI Strategy + Technical AI Safety (2025–2026) — catastrophic risk, power-seeking, geometric alignment evaluation |
-| 🔬 **LASR Labs** | Progressed through initial selection — mechanistic interpretability research programme |
-| 📋 **NeurIPS 2025 Reviewer** | MTI-LLM Workshop |
-| 🖥️ **5× Google Colab Pro A100/H100** | 300 GPU units each — Neuromatch Academy AI Safety grant |
-| ☁️ **AWS AI & ML Scholar** | Udacity, 2025 |
-| 🎓 **Armenian LLM Summer School 2025** | 90% full scholarship |
-| 🏆 **SPAR Demo Day 2025** | AI Safety & Alignment demonstration — Neuromatch / AI Safety cohort |
-| 🌐 **Duke ML Summer School 2025** | Competitive selection |
-| 🌐 **Cohere Summer School 2025** | Competitive selection |
-| 🏙️ **University of Chicago DSI 2024** | AI-Science Research Program · Eric & Wendy Schmidt Postdoctoral Fellowship |
-| 🎓 **MLx Generative AI Fellowship** | Oxford ML Summer School 2024 & 2025 — competitive scholarship award |
-| 🌍 **Athens NLP Summer School 2024** | Competitive international selection — NLP & large language models |
-| 🧠 **diiP Summer School 2024** | Paris — Deep Learning & Interpretability in Practice · competitive selection |
-| 🤖 **Neuromatch Academy** | Deep Learning Summer School — competitive global selection |
-| 🗽 **NYU AI Summer School 2022** | New York University — competitive selection |
-| 🤖 **AI4 IMPACT Scholar** | AI Singapore 2021 — selected AI practitioner programme |
-| 💡 **Google Developer's Program** | Google 2019 — Google Developer Expert community selection |
-| 🎓 **Udacity Bertelsmann Tech Scholarship** | Google-sponsored — competitive global selection |
-
----
-
 ## 🗂️ Key Repositories
 
 | Repository | Description | Status |
 |-----------|-------------|--------|
-| [`graft-belief-geometry`](https://github.com/pps121/graft-belief-geometry) | GRAFT: post-hoc geometric audit of alignment — MechInterp | 🟢 Active |
-| [`AgriTalk`](https://github.com/pps121/AgriTalk) | Calibrated NLU for agricultural spray robots — conformal prediction + BVF attribution | 🟢 Active |
-| [`torsional-belief-vector-field`](https://github.com/pps121/torsional-belief-vector-field) | TBVF / MENTIS — Riemannian torsion framework for alignment auditing | 🟢 Active |
-| [`AutoResearchClaw`](https://github.com/pps121/AutoResearchClaw) | Autonomous AI research pipeline: idea → full conference-ready paper | 🟢 Contributed |
-| [`pps121.github.io`](https://github.com/pps121/pps121.github.io) | Full academic portfolio — research, publications, CV | 🟢 Live |
+| [`graft-belief-geometry`](https://github.com/pps121/graft-belief-geometry) | GRAFT: post-hoc geometric audit of preference alignment | 🟢 Active |
+| [`torsional-belief-vector-field`](https://github.com/pps121/torsional-belief-vector-field) | MENTIS — Riemannian torsion framework for alignment auditing | 🟢 Active |
+| [`AgriTalk`](https://github.com/pps121/AgriTalk) | Calibrated NLU for agricultural robots — conformal prediction | 🟢 Active |
+| [`nDNA`](https://github.com/pps121/nDNA) | Cultural epistemic inheritance in merged LLMs | 🟢 Active |
+| [`pps121.github.io`](https://github.com/pps121/pps121.github.io) | Full academic portfolio | 🟢 Live |
 
 ---
 
@@ -274,42 +228,50 @@ dtaidistance · scikit-learn
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🎓  Lecturer in CS          Nalhati Govt. Polytechnic College      2021 – present
-                             BITS Pilani M.Tech · GPA 9.08/10 · Top 5%
-                             50+ students supervised · 4 active research projects
+🎓  Lecturer in CS &         Nalhati Govt. Polytechnic           2021–present
+    Independent Researcher   BITS Pilani M.Tech · GPA 9.08 · Top 5%
+                             NeurIPS 2025 author · 4 active research projects
+                             All research self-funded, pre/post office hours
 
-📚  Teaching Assistant      BITS Pilani (M.Tech Programme)         2021 – 2023
-                             NLP Applications [Winter 2023] · Deep Learning [Fall 2021]
-                             Deep Reinforcement Learning [Spring 2021]
-                             Honorarium: USD $2,513.11 across 3 courses
+📚  Teaching Assistant       BITS Pilani (M.Tech Programme)      2021–2023
+                             NLP · Deep Learning · Deep RL
+                             Honorarium: USD $2,513.11
 
-🏭  Lead Data Scientist     Wipro Limited (Bangalore)              2021
+🏭  Lead Data Scientist      Wipro Limited, Bangalore            2021
                              Conversational AI · IBM Watson · 0.3M users
 
-🔬  Senior Data Scientist   BirlaSoft / Johnson & Johnson R&D       2017 – 2019
-                             Medical search engine · SciBERT/SpaCy · 0.1M+ users
+🔬  Senior Data Scientist    BirlaSoft / Johnson & Johnson R&D   2017–2019
+                             Medical search engine · 0.1M+ users
 
-🛡️  Project Engineer        IIT Kanpur                             2016 – 2017
-                             Threat intelligence system · cybersecurity research
+🛡️  Project Engineer         IIT Kanpur                          2016–2017
+                             Threat intelligence · cybersecurity research
 
-🧬  Senior Systems Engg.    Infosys Technologies (Chennai)         2011 – 2015
-                             DNA alignment algorithms · Multiple Myeloma genomics
-                             Top 10 cancer-driving genes · 3 research papers
+🧬  Senior Systems Engg.     Infosys Technologies, Chennai       2011–2015
+                             DNA alignment · Multiple Myeloma genomics
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 ---
 
-## 📬 Let's Collaborate
+## 📊 GitHub Activity
 
-I am actively seeking **fully-funded PhD positions starting 2026** and open to:
+<div align="center">
+
+| | |
+|:---:|:---:|
+| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pps121&show_icons=true&hide_border=true&bg_color=0d1117&title_color=c084fc&icon_color=c084fc&text_color=e2e8f0&rank_icon=github&include_all_commits=true&count_private=true) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pps121&layout=compact&hide_border=true&bg_color=0d1117&title_color=c084fc&text_color=e2e8f0&langs_count=7) |
+
+</div>
+
+---
+
+I am actively seeking **fully-funded PhD positions starting 2026/2027** and open to:
 
 - 🤝 Research collaborations in **mechanistic interpretability**, **geometric ML**, or **AI safety**
 - 🎓 PhD discussions with faculty at world-class AI safety & interpretability groups
 - 🔭 Partnerships validating geometric torsion findings against circuit-level causal analysis
-- 🌱 Applied work connecting geometric alignment theory to deployment-time safety monitoring
 
-**If you work at Anthropic · Redwood Research · ARC Evals · Oxford FHI · Cambridge LTL · MIT · CMU · or any world-class AI safety group — I would love to talk.**
+**If you work at Anthropic · Redwood Research · ARC Evals · Oxford · Cambridge · MIT · CMU · or any world-class AI safety group — I would love to talk.**
 
 <div align="center">
 

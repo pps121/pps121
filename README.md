@@ -257,9 +257,17 @@ LaTeX · scikit-learn
 
 <div align="center">
 
-| | |
-|:---:|:---:|
-| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pps121&show_icons=true&hide_border=true&bg_color=0d1117&title_color=c084fc&icon_color=c084fc&text_color=e2e8f0&rank_icon=github&include_all_commits=true&count_private=true) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pps121&layout=compact&hide_border=true&bg_color=0d1117&title_color=c084fc&text_color=e2e8f0&langs_count=7) |
+![Profile Views](https://komarev.com/ghpvc/?username=pps121&color=7c3aed&style=for-the-badge&label=Profile+Views)
+
+| Metric | Value |
+|:---|:---|
+| 🔬 **Research Repos** | graft-belief-geometry · torsional-belief-vector-field · AgriTalk · nDNA |
+| 📄 **Publications** | NeurIPS 2025 Workshop · SpringerNature ICOMP'24 · 3× under review / preprint |
+| 🏆 **Fellowships** | BlueDot · LASR Labs · AWS Scholar · Duke ML · Oxford MLx · 14× competitive selections |
+| 🌟 **Highlights** | NeurIPS 2025 Reviewer · 20,439-prompt benchmark · 4 model families probed |
+
+[![GitHub followers](https://img.shields.io/github/followers/pps121?label=Followers&style=social)](https://github.com/pps121)
+[![GitHub stars](https://img.shields.io/github/stars/pps121?label=Stars&style=social)](https://github.com/pps121)
 
 </div>
 

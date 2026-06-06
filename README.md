@@ -72,10 +72,18 @@ p-value:           7.7 × 10⁻¹³
 ## 🚀 Current Status
 
 ```
-🟢 ACTIVE  — Submitting to ICML 2026 MechInterp Workshop
+🟢 ACTIVE  — Research in AI Safety & Mechanistic Interpretability
 🟡 SEEKING — Fully-funded PhD (2026 intake), world-class research universities
 🔵 BUILDING — Extending TBVF to vision transformers and multimodal models
 ```
+
+### 🏛️ Recent Selections (2026)
+
+| Programme | Details |
+|-----------|--------|
+| **MIT AI Safety Fundamentals (AISF)** | 8-week program, selected from ~300 applicants · MIT × [Harvard AI Safety](https://aisst.ai/) |
+| **BlueDot Impact — Technical AI Safety** | Accepted · Jun 2026 cohort |
+| **BlueDot Impact — AGI Strategy** | Accepted · May 2026 cohort |
 
 **Research interests for PhD:**
 - Mechanistic interpretability of alignment techniques (DPO, RLHF, CAI)

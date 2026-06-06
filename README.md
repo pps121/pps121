@@ -155,7 +155,8 @@ MENTIS · Headline Metrics
 | 🏙️ **University of Chicago DSI** — Eric & Wendy Schmidt Postdoctoral Fellowship | 2024 |
 | 🎓 **MLx Generative AI Fellowship** — Oxford ML Summer School | 2024–2025 |
 | 🧠 **diiP Summer School Paris** — Deep Learning & Interpretability | 2024 |
-| 🤖 **Neuromatch Academy** — Deep Learning Summer School | 2023 |
+| 🧠 **Neuromatch Academy — Deep Learning 2026** — Accepted as Student · Jul 06–24, 2026 | 2026 |
+| 🤖 **Neuromatch Academy** — Deep Learning Summer School (previous cohort) | 2023 |
 | 🗽 **NYU AI Summer School** | 2022 |
 
 ---

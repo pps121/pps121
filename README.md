@@ -72,12 +72,12 @@ I discovered that DPO/RLHF alignment creates geometrically localised **"brake la
 | 2025 | **Journal** | Enhancing Human Empathy in Conversations Using Transformer-Based Models | [DOI](https://doi.org/10.5281/zenodo.15126395) |
 | 2024 | **SpringerNature ICOMP'24** | Collaborative Federated Learning Cloud Based System | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-72171-7_3) |
 | 2026 | **[Under Review — NeurIPS 2026]** | MENTIS: Multi-Scale Latent Torsion in Language Models | [Repo](https://github.com/pps121/torsional-belief-vector-field) |
-| 2026 | **[Preprint]** | GRAFT: Geometric Representations of Alignment's Fingerprint in Transformer Belief Trajectories | [Repo](https://github.com/pps121/graft-belief-geometry) |
+| 2026 | **[✦ ICML 2026 Workshop — Accepted · Poster]** | GRAFT: Geometric Representations of Alignment's Fingerprint in Transformer Belief Trajectories | [OpenReview](https://openreview.net/group?id=ICML.cc/2026/Workshop/Mech_Interp) · [Repo](https://github.com/pps121/graft-belief-geometry) |
 
 ---
 
 ### 1 · GRAFT — Geometric Representations of Alignment's Fingerprint in Transformer Belief Trajectories
-> **Mechanistic Interpretability** | [`graft-belief-geometry`](https://github.com/pps121/graft-belief-geometry)
+> **✦ Accepted · ICML 2026 Mechanistic Interpretability Workshop (In-Poster)** | [`graft-belief-geometry`](https://github.com/pps121/graft-belief-geometry)
 
 GRAFT is a **post-hoc, gradient-free mechanistic audit toolkit** that characterises preference alignment via three torsion probes (𝒯, T1, T2) and an ERA depth profiler — requiring only forward passes through publicly available checkpoints.
 
@@ -144,7 +144,7 @@ MENTIS · Headline Metrics
 | Award | Year |
 |---|---|
 | 🏛️ **MIT AI Safety Fundamentals (AISF)** — 8-week program, selected from ~300 applicants · MIT × Harvard AI Safety | 2026 |
-| 🛡️ **BlueDot Impact Scholar** — Technical AI Safety (Jun 2026) + AGI Strategy (May 2026) | 2026 |
+| 🛡️ **BlueDot Impact** — Technical AI Safety (Jun 2026) + AGI Strategy (May 2026) | 2026 |
 | 🔬 **LASR Labs** — Mechanistic interpretability research programme | 2025 |
 | 📋 **NeurIPS 2025 Reviewer** — MTI-LLM Workshop | 2025 |
 | 🖥️ **5× Google Colab Pro A100/H100** — Neuromatch AI Safety grant | 2025 |
@@ -264,7 +264,7 @@ LaTeX · scikit-learn
 | Metric | Value |
 |:---|:---|
 | 🔬 **Research Repos** | graft-belief-geometry · torsional-belief-vector-field · AgriTalk · nDNA |
-| 📄 **Publications** | NeurIPS 2025 Workshop · SpringerNature ICOMP'24 · 3× under review / preprint |
+| 📄 **Publications** | NeurIPS 2025 Workshop · ICML 2026 Workshop · SpringerNature ICOMP'24 · 2× under review |
 | 🏆 **Fellowships** | MIT AISF (2026) · BlueDot AI Safety · LASR Labs · AWS Scholar · Duke ML · Oxford MLx · 15× competitive selections |
 | 🌟 **Highlights** | NeurIPS 2025 Reviewer · 20,439-prompt benchmark · 4 model families probed |
 
